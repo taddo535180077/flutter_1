@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(child: Column(
           children: [
-            const Image(image: NetworkImage('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg'),
+            const Image(image: AssetImage('images/logo.png'),
             ),
             Text ('Hello World!')
         ], 
